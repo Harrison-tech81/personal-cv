@@ -7,8 +7,8 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI',Arial,sans-serif;background:#f8f9fa;color:#222;line-height:1.7}
-.container{max-width:900px;margin:auto;padding:20px}
-header{background:linear-gradient(135deg,#0077b6,#00b4d8);color:white;text-align:center;padding:70px 20px}
+.container{max-width:1000px;margin:auto;padding:20px}
+header{background:linear-gradient(135deg,#1e05f78c,#00b4d8);color:white;text-align:center;padding:15px 15px}
 header h1{font-size:2.6rem}
 section{background:white;margin:25px 0;padding:30px;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.08)}
 h2{color:#0077b6;margin-bottom:12px;border-bottom:2px solid #90e0ef;padding-bottom:6px}
@@ -16,7 +16,7 @@ h2{color:#0077b6;margin-bottom:12px;border-bottom:2px solid #90e0ef;padding-bott
 .skill{background:#caf0f8;padding:8px 16px;border-radius:20px;font-size:0.9rem}
 .btn{display:inline-block;background:#0077b6;color:white;padding:12px 26px;border-radius:6px;text-decoration:none;margin:10px 10px 0 0;cursor:pointer;border:none;font-size:1rem}
 .btn-green{background:#2a9d8f}
-footer{text-align:center;padding:25px;color:#777}
+footer{text-align:center;padding:25px;color:#050000}
 
 /* Printable CV - hidden on screen */
 #printableCV{display:none}
@@ -30,14 +30,10 @@ footer{text-align:center;padding:25px;color:#777}
 </style>
 </head>
 <body>
-  <div id="closed" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#0f172a;color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;text-align:center;">
-  <h1 style="font-size:50px;">We'll be back at 6PM</h1>
-  <p style="font-size:20px;">Site is under maintenance - Harrison Njuguna Karanja</p>
-</div>
 <header>
 <div class="container">
 <h1>Harrison Njuguna Karanja</h1>
-<p>BEd Arts Mathematics & Computer Studies | 3rd Year @ Meru University</p>
+<p>BEd Arts Mathematics & Computer Studies | Third Year at Meru University</p>
 <p>Kericho, Kenya | Born Again Christian | DOB: 1st Oct 2006</p>
 </div>
 </header>
@@ -45,52 +41,131 @@ footer{text-align:center;padding:25px;color:#777}
 <div class="container">
 <section>
 <h2>About Me</h2>
-<p>I'm Harrison from Kericho, Third year student at Meru University of Science and Technology pursuing Bachelor of Education Arts in Mathematics and Computer Studies. Passionate about Education Technology and serving through teaching.</p>
+<p>I'm Harrison Njuguna Karanja, a 20-year-old Third-year student at Meru University of Science and Technology, pursuing a Bachelor of Education Arts in Mathematics and Computer Studies.
+I'm passionate about using technology to improve education and transforming Mathematics & Computer Studies learning in Kenya.
+As a Christian, I believe in serving others with integrity and excellence.
+</p>
 </section>
 
 <section>
-<h2>Experience</h2>
-<h3>Volunteer Teacher - Mathematics & Computer Studies</h3>
-<p><em>Long Holidays | Kericho & Meru</em></p>
-<p>Taught Grade 7-9, prepared schemes, introduced basic computer skills in schools with limited resources.</p>
+<h2>Work Experience</h2>
+<h3>Volunteer Teacher - <i>May to September (2025 & 2026)</i></h3>
+<p><i>During Long Holidays</i><br>
+I taught Mathematics and Pre-Technical Studies to Grade 7, 8 & 9 students at Londiani Farmers Comprehensive School. 
+This has sharpened my communication skills and deepened my love for both education and technology.
+Also, i prepared schemes, introduced just basic computer concepts due to limited resources.</p>
 </section>
+
+<section>
+  <h2>Personal Attributes</h2>
+  <p>•	Hardworking and responsible <br>
+•	Self-motivated <br>
+•	Honest and disciplined <br>
+•	Able to work under less or no supervision <br>
+</p>
+</section>
+
+ <section >
+  <h2>Skills </h2>
+  <p>I'm currently working towards perfecting the following skills for the better. </p>
+  <div class="skills">
+  <span class="skill"> HTML </span>
+  <span class="skill"> CSS </span>
+  <span class="skill"> JavaScript - Learning </span> 
+  <span class="skill"> PHP - Learning </span>
+  <span class="skill"> Problem Solving & Creativity </span>
+  <span class="skill"> Communication & Collaboration</span>
+  </div>
+  </section>
 
 <section>
 <h2>Goal</h2>
-<p>To become an innovative teacher and edtech developer for Kenyan schools.</p>
+<p>To become a skilled system and web developer who builds educational technology 
+  solutions for Kenyan schools. I want to bridge the gap between teaching and technology.</p>
 <button class="btn" onclick="downloadCV()">Download CV</button>
 <button class="btn btn-green" onclick="printCV()">Print CV</button>
 </section>
 
 <section>
 <h2>Contact</h2>
-<p>Email: harrison.karanja@email.com | Phone: +254 7XX XXX XXX</p>
+<p>
+  Email: njugunaharrison40@gmail.com <br>
+Phone No: +254748386678 <br>
+Location: Kericho, Kenya <br>
+</p>
 </section>
 </div>
 
 <!-- THIS IS THE CV THAT WILL BE DOWNLOADED/PRINTED -->
 <div id="printableCV">
 <h1>HARRISON NJUGUNA KARANJA</h1>
-<p>Kericho, Kenya | harrison.karanja@email.com | +254 7XX XXX XXX | Born Again Christian</p>
-<hr><br>
-<h3>EDUCATION</h3>
-<p><strong>Meru University of Science and Technology</strong><br>
-Bachelor of Education Arts - Mathematics & Computer Studies (3rd Year)<br>
-2023 - Present</p>
+<p>Kericho, Kenya | njugunaharrison40@email.com | <br> +254 748386678 | Born Again Christian | 
+  DoB: 01/10/2006 | <br> P.O. BOX 377-20203
+</p><hr>
 
-<h3>EXPERIENCE</h3>
-<p><strong>Volunteer Teacher</strong> - Mathematics & Computer Studies<br>
-Long holidays - Teaching Grade 7-9, computer literacy, exam preparation</p>
+<h3>CAREER OBJECTIVE</h3>
+<p>A dedicated and self-motivated student of Bachelor of Education (Arts) specializing in 
+  Mathematics and Computer Studies, seeking a teaching practice opportunity to gain practical experience, 
+  apply theoretical knowledge, and develop professional skills in a dynamic work environment. 
+  I am eager to learn, contribute, and uphold high standards of integrity and diligence.
+</p>
+
+<br>
+<h3>EDUCATION BACKGROUND</h3>
+<p><strong>Meru University of Science and Technology</strong><br>
+Bachelor of Education Arts - Mathematics & Computer Studies (Third Year)<br>
+2024 - Present <br><br>
+
+<strong>Baraka Secondary School</strong><br>
+Kenya Certificate of Secondary Education (KCSE)
+<br>
+2020 - 2023 <br><br>
+
+<strong>Londiani Farmers Primary School</strong><br>
+Kenya Certificate of Primary Education (KCPE)<br>
+2011 - 2019 <br>
+</p>
+
+<h3>WORK EXPERIENCE</h3>
+<p><strong>Volunteer Teacher</strong> at Londiani Farmers Comprehensive School - Mathematics & Pre-Technical Studies<br>
+Long holidays - Teaching Grade 7-9, computer literacy, exam preparation, preparing schemes</p>
 
 <h3>SKILLS</h3>
-<p>Mathematics, Computer Studies, HTML/CSS, Teaching, Communication, EdTech, Problem Solving</p>
+<p>•	Good communication skills e.g I speak Fluent English, Kiswahili and Kikuyu. <br>
+•	Classroom management <br>
+•	Problem-solving and Creativity. <br>
+•	Adaptability and Integrity <br>
+•	Basic computer skills <br>
+•	Time management <br>
+•	Teamwork cooperation   <br> 
+</p>
 
-<h3>OBJECTIVE</h3>
-<p>Seeking teaching practice and edtech opportunities to apply my education background and passion for technology in education.</p>
+
+
+<h3>PERSONAL ATTRIBUTES</h3>
+<p>•	Hardworking and responsible <br>
+•	Self-motivated <br>
+•	Honest and disciplined <br>
+•	Able to work under less or no supervision <br> <br>
+</p>
+
+<h3>HOBBIES</h3>
+<p>•	Coding  <br>
+•	Travelling and Adventure <br>
+•	Watching online learning videos <br>
+</p>
 
 <h3>REFEREES</h3>
-<p>Available on request</p>
-<p style="margin-top:30px"><em>Generated from harrison portfolio - 2026</em></p>
+<p>Madam Nancy Ronoh <br>
+0723730382
+(School Principal - Londiani Farmers Comprehensive School)
+</p>
+
+<h3>DECLARATION</h3>
+<p>I hereby declare that all the information provided in this CV is true, accurate, and complete to the best of my knowledge.
+ <br>Signature: ______________
+</p>
+
 </div>
 
 <footer>&copy; 2026 Harrison Njuguna Karanja</footer>
